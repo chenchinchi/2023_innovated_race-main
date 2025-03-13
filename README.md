@@ -22,7 +22,7 @@
 ## 原理
 先將鏡頭的視野劃分成兩區域，再透過yolo自訓練模型的方匡計算在區域內的面積，並以list儲存，用面積的增加減少以判斷物品是放入或取出。  
 <img width="242" alt="截圖 2023-08-01 下午1 10 35" src="https://github.com/109810022/2023_innovatated_race/assets/100888502/7b06d75f-a90d-46ba-8981-cb40f50c1643"> -->交界面積  
-詳細算法[見此](https://github.com/109810022/2023_innovated_race/blob/main/background_algorithm.md)
+詳細算法https://github.com/chenchinchi/2023_innovated_race-main/blob/main/background_algorithm.md
 ## 功能
 1. 偵測物件，並辨識出物件為何（yolov8 自訓練模型）
 2. 量測物件和指定區域的交界面積，並儲存在陣列，加上時間軸用以判斷物品動作的趨勢，放入或取出。
